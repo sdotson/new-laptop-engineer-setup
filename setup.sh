@@ -100,7 +100,7 @@ brew install --cask visual-studio-code
 brew install --cask postico
 
 echo "Now we're going to generate a new SSH key."
-read -p 'Paste your calm email address here:' email
+read -p 'Paste your email address here:' email
 # generate and require a passphrase
 ssh-keygen -t ed25519 -C $email
 # add key to OS X keychain to not have to enter passphrase
