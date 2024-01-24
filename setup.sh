@@ -93,7 +93,7 @@ xcode-select --install || true
 brew install openssl
 brew install iterm2
 brew install zsh
-brew install teleport-connect
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install code editor
 brew install --cask visual-studio-code
